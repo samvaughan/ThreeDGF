@@ -3,6 +3,14 @@ from numpy.fft import rfftn, fftshift, irfftn
 from numpy.fft import rfft, fftshift, irfft
 
 
+"""
+These functions are edited from GALPAK v1.9.1, from http://galpak.irap.omp.eu/index.html.
+Credit to IRAP-UPS / CNRS- see "Bouche, N. et al. 2015, AJ, submitted"
+
+
+"""
+
+
 def convolve_3d_same(cube, psf, compute_fourier=True):
     """
     Convolve a 3D cube with PSF & LSF.

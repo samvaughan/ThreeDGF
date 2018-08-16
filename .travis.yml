@@ -4,4 +4,4 @@ python:
   - "3.6"
 
 
-script: python-m unittest discover
+script: python -m unittest discover

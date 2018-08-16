@@ -14,3 +14,5 @@ def make_final_model(disk_params, shape, oversample, Ha_lam, logLamdas, light_pr
     binned_convolved_model=B.bin_cube(x, y, bins, convolved_cube)
 
     return binned_convolved_model
+
+
